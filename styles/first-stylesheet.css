@@ -1,0 +1,19 @@
+header {
+  color: cornflowerblue;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+li {
+  text-decoration: underline;
+}
+
+nav {
+  background-color: azure;
+}
+
+ls {
+  list-style: square;
+}
