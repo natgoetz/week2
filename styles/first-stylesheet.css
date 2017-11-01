@@ -4,6 +4,7 @@ header {
 
 body {
   background-color: aliceblue;
+    font-family: sans-serif;
 }
 
 li {
@@ -14,6 +15,30 @@ nav {
   background-color: azure;
 }
 
-ls {
-  list-style: square;
+li {
+  list-style: square; 
+}
+
+h1 {
+    border: 1.5px solid purple;
+    padding: 10px
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 3px; 
+    padding: 3px; 
+    width: 200px;
+}
+
+h2 {
+    text-shadow: 2px 2px 5px grey;
+}
+
+.highlight p {
+    background-color: aqua;
+}
+
+li:hover {
+    font-size: 1.5em
 }
