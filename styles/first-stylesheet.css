@@ -37,8 +37,21 @@ h2 {
 
 .highlight p {
     background-color: aqua;
+    padding: 30;
+}
+
+p {
+    border-style: dotted; 
+    border-color: purple; 
+    margin: 25px 50px;
 }
 
 li:hover {
-    font-size: 1.5em
+    font-size: 1.5em;
+}
+
+footer {
+    padding: 20px;
+    font-family: "Time New Roman";
+    font-style: italic; 
 }
