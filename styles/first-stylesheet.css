@@ -4,7 +4,7 @@ header {
 
 body {
   background-color: aliceblue;
-    font-family: sans-serif;
+    font-family: 'Monsterrat' , sans-serif;
 }
 
 li {
@@ -21,7 +21,13 @@ li {
 
 h1 {
     border: 1.5px solid purple;
-    padding: 10px
+    margin: auto;
+    padding: 10px;
+}
+
+h1.highlight {
+    text-align: center;
+    background-color: floralwhite;
 }
 
 img {
@@ -29,6 +35,11 @@ img {
     border-radius: 3px; 
     padding: 3px; 
     width: 200px;
+}
+
+img {
+    float: inherit;
+    margin: 10px; 
 }
 
 h2 {
