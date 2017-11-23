@@ -4,7 +4,7 @@ header {
 
 body {
   background-color: aliceblue;
-    font-family: sans-serif;
+  font-family: "Montserrat" , sans-serif;
 }
 
 li {
@@ -13,15 +13,26 @@ li {
 
 nav {
   background-color: azure;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "open-sans", sans-serif;
 }
 
 li {
-  list-style: square; 
+  list-style: square;
+  font-family: "Indie FLower" , cursive;
 }
 
 h1 {
     border: 1.5px solid purple;
-    padding: 10px
+    margin: auto;
+    padding: 10px;
+    font-family: "montserrat" , sans-serif;
+}
+
+h1.highlight {
+    text-align: center;
+    background-color: floralwhite;
 }
 
 img {
@@ -29,6 +40,11 @@ img {
     border-radius: 3px; 
     padding: 3px; 
     width: 200px;
+}
+
+img {
+    float: inherit;
+    margin: 10px; 
 }
 
 h2 {
@@ -46,12 +62,18 @@ p {
     margin: 25px 50px;
 }
 
+p {
+    text-align: center;
+    font-family: "Montserrat" , sans-serif;
+}
+
 li:hover {
     font-size: 1.5em;
 }
 
 footer {
     padding: 20px;
-    font-family: "Time New Roman";
+    font-family: "open sans" , sans-serif;
     font-style: italic; 
+    text-align: center;
 }
