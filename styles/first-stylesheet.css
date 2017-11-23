@@ -4,7 +4,11 @@ header {
 
 body {
   background-color: aliceblue;
+<<<<<<< HEAD
     font-family: 'Monsterrat' , sans-serif;
+=======
+  font-family: "Montserrat" , sans-serif;
+>>>>>>> gh-pages
 }
 
 li {
@@ -13,16 +17,24 @@ li {
 
 nav {
   background-color: azure;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "open-sans", sans-serif;
 }
 
 li {
-  list-style: square; 
+  list-style: square;
+  font-family: "Indie FLower" , cursive;
 }
 
 h1 {
     border: 1.5px solid purple;
     margin: auto;
     padding: 10px;
+<<<<<<< HEAD
+=======
+    font-family: "montserrat" , sans-serif;
+>>>>>>> gh-pages
 }
 
 h1.highlight {
@@ -48,7 +60,7 @@ h2 {
 
 .highlight p {
     background-color: aqua;
-    padding: 30;
+    padding: 3px;
 }
 
 p {
@@ -57,12 +69,18 @@ p {
     margin: 25px 50px;
 }
 
+p {
+    text-align: center;
+    font-family: "Montserrat" , sans-serif;
+}
+
 li:hover {
     font-size: 1.5em;
 }
 
 footer {
     padding: 20px;
-    font-family: "Time New Roman";
+    font-family: "open sans" , sans-serif;
     font-style: italic; 
+    text-align: center;
 }
