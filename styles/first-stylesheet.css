@@ -1,15 +1,15 @@
+
 header {
   color: cornflowerblue;
 }
 
 body {
   background-color: aliceblue;
-<<<<<<< HEAD
+
     font-family: 'Monsterrat' , sans-serif;
-=======
-  font-family: "Montserrat" , sans-serif;
->>>>>>> gh-pages
 }
+
+
 
 li {
   text-decoration: underline;
@@ -20,6 +20,8 @@ nav {
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: "open-sans", sans-serif;
+  float: left;
+  margin: 1%; 
 }
 
 li {
@@ -28,13 +30,10 @@ li {
 }
 
 h1 {
-    border: 1.5px solid purple;
-    margin: auto;
+    margin: 1%;
     padding: 10px;
-<<<<<<< HEAD
-=======
     font-family: "montserrat" , sans-serif;
->>>>>>> gh-pages
+    text-align: center;
 }
 
 h1.highlight {
