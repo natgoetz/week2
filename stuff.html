@@ -1,26 +1,103 @@
 <!Doctype html>
-
+<html>
 <head>
   
   <meta charset="UTF-8">
   
-  <title>About Me</title>
-  
-    <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+  <title>Stuff</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!--Bootstrap-->
     
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
-  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    
+     <style>
+         
+    </style>
 </head>
 <body>
+    
+  <!--  Grid Class: .container:wrapper for all rows -->
   
-  <header>About Me Page</header>
-    <nav>
-        <a href="index.html"
-        target="_blank">Portfolio Page</a>
-        <a href="stuff.html"
-           target="_blank">Stuff</a>
-    </nav>
+    <div class="container">
+    
+        <div class="row">
+        
+  <!-- Header & nav -->
+            
+            <header>Tigers</header>
+                <nav class="nav">
+                    <a class="nav-link" href="index.html"
+                    target="_blank">Portfolio Page</a>
+                    <a class="nav-link" href="about.html"
+                    target="_blank">About</a>
+                    <a class="nav-link active" href="stuff.html"
+                    target="_blank">Tigers</a>
+                </nav>
+        
+        </div>
+    
+    </div>
 
-  <article>
+    <article>
+        
+        
+<!-- main content with a section header, paragraphs and images-->
+        
+      <h2>Tigers are Really Cool</h2>
+      
+        <div class="row">
+            <div class="col-md-12" style="background-color:lavender;">
+            <p>Tigers are a beautiful, endangered species. Quisque tincidunt mauris orci, sit amet gravida urna luctus eget. Etiam blandit nulla euismod nulla imperdiet, quis eleifend dolor molestie. Cras at nulla ipsum. Proin pretium, eros vitae pharetra viverra, tortor leo bibendum sem, a aliquam enim nulla ut massa. Aliquam sit amet leo mi. </p>
+            </div>
+            <div class="col-md-4" style="background-color:aliceblue;">
+                <img src="images/jumping_tiger.jpeg" class="rounded float-right" alt="jumping tiger" style="width:100%;">
+            </div>
+            <div class="col-md-4" style="background-color: aliceblue;">
+                <img src="images/tiger_swimming.jpg" class="rounded float-right" alt="swimming tiger" style="width:100%;">
+            </div>
+            <div class="col-md-4" style="background-color:aliceblue;">
+                <img src="images/teeth_tiger.jpg" class="rounded float-right" alt="teeth tiger" style="width:100%;">
+            </div>
+            <div class="col-md-12" style=background-color:lavender;> 
+                <p>Integer vitae finibus felis. Ut et mollis arcu. Proin quis accumsan orci. Donec congue gravida ante, vitae varius enim pretium semper. Proin ullamcorper lorem orci, non venenatis nibh ornare eu. Ut eu orci diam. Duis faucibus sapien semper orci tincidunt, non pharetra ipsum interdum.</p>
+            </div>
+        </div>   
+    <div>
+        <h3>Here are some organizations that help save tigers</h3>
+      
+      <ul class="list-group">
+          <li class="list-group-item"><a href="http://www.ifaw.org/united-states/our-work/saving-the-last-tigers"
+               target="_blank">International Fund for Animal Welfare</a>
+          </li>
+          <li class="list-group-item"><a href="https://www.panthera.org/initiative/save-tiger-fund"
+               target="_blank">Save the Tiger Fund</a>
+          </li>
+          <li class="list-group-item"><a href="https://www.worldwildlife.org/"
+               target="_blank">World Wildlife Fund</a>
+          </li>
+          <li class="list-group-item"><a href="http://www.tigersincrisis.com/saving_tigers_7">Tigers in Crisis</a>
+          </li>
+      
+      </ul>
+    
+    
+    </div>
+    
+        <div class="col-md-12">
+        <img src="images/tiger_cubs.jpg" class="rounded float-right" alt="baby tigers" style="width:20%">
+        </div>
+    
+    </article>
+    
+    <footer>
+   <p>Content Created by Natalie Goetz 2017</p>
+    </footer>
+</body>
+</html>
+    
+   
